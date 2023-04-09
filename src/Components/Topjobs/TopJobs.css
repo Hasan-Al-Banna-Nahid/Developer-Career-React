@@ -5,3 +5,13 @@
   gap: 20px;
   margin-top: 50px;
 }
+.title {
+  color: #182c61;
+  font-weight: 900;
+  text-align: center;
+}
+@media screen and (max-width: 576px) {
+  .jobsInfo {
+    flex-direction: column;
+  }
+}

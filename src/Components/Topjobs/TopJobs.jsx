@@ -37,6 +37,7 @@ const TopJobs = () => {
 
   return (
     <div>
+      <h3 className="title">Top Jobs</h3>
       <div className="jobsInfo">
         {data.map((data) => (
           <TopJobsDescription data={data} />
