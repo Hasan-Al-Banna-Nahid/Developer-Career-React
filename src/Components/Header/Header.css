@@ -23,3 +23,16 @@
   display: flex;
   gap: 10px;
 }
+@media screen and (max-width: 576px) {
+  .header {
+    flex-direction: column;
+    width: fit-content;
+    margin: 0 auto;
+    gap: 0;
+  }
+  .navbar {
+    flex-direction: column;
+    width: fit-content;
+    gap: 5px;
+  }
+}

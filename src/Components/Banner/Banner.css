@@ -1,0 +1,29 @@
+.bannerPhoto img {
+  width: 800px;
+  height: 700px;
+}
+.bannerTitle {
+  color: black;
+  font-weight: 800;
+  font-size: 30px;
+}
+.bannerTitle span {
+  background: linear-gradient(90deg, #7e90fe 0%, #130f40 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.bannerDescription {
+  color: #535c68;
+  font-weight: 700;
+}
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: fit-content;
+}
+.bannerInfo {
+  margin-left: 50px;
+}
