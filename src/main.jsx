@@ -3,16 +3,16 @@ import ReactDOM from "react-dom/client";
 import App from "./App";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import FeaturedJobs from "./Components/FeaturedJobs/FeaturedJobs";
-import FeaturedJobsData from "./Components/CustomLoader/Loader";
+import TopJobs from "./Components/Topjobs/TopJobs";
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
     children: [
       {
-        path: "/featuredJobs",
-        element: <FeaturedJobs />,
+        path: "/TopJobs",
+        element: <TopJobs />,
+        loader: () => fetch("jobdescription.json"),
       },
     ],
   },
