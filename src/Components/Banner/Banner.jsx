@@ -14,7 +14,7 @@ class Banner extends Component {
             information you need. Its your future. Come find it. Manage all{" "}
             <br /> your job application from start to finish.
           </p>
-          <Button variant="contained" color="primary">
+          <Button className="bannerBtn" variant="contained" color="primary">
             Apply
           </Button>
         </div>

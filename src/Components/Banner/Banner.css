@@ -26,4 +26,23 @@
 }
 .bannerInfo {
   margin-left: 50px;
+  border-right: 2px solid #3b3b98;
+  border-width: 5px;
+}
+@media screen and (max-width: 576px) {
+  .banner {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .bannerPhoto {
+    display: none;
+  }
+  .bannerInfo {
+    margin: 0 auto;
+    border-left: 2px solid #2c3a47;
+    border-width: 10px;
+  }
+  .bannerBtn {
+    margin: 10px 150px;
+  }
 }
