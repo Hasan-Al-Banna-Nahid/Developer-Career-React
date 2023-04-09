@@ -36,8 +36,8 @@ class Header extends Component {
             </Button>
           </Link>
         </div>
-        <div className="applyBtn">
-          <Button variant="contained" color="info">
+        <div>
+          <Button className="applyBtn" variant="contained" color="info">
             Start Apply
           </Button>
         </div>

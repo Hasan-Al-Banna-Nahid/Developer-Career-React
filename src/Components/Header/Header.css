@@ -31,10 +31,14 @@
     width: fit-content;
     margin: 0 auto;
     gap: 0;
+    position: static;
   }
   .navbar {
     flex-direction: column;
     width: fit-content;
     gap: 5px;
+  }
+  .applyBtn {
+    margin: 8px 150px;
   }
 }

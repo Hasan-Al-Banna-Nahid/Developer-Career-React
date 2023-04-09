@@ -1,6 +1,6 @@
 import React from "react";
 import FeaturedJobsDescription from "../FeaturedJobsDescription/FeaturedJobsDescription";
-
+import "./FeaturedJobs.css";
 const data = [
   {
     id: 1,
@@ -37,21 +37,24 @@ const data = [
 const FeaturedJobs = () => {
   //   const { img, name, id, jobAvailable } = data;
   return (
-    <div>
-      <h2 style={{ color: "black", fontWeight: "800", textAlign: "center" }}>
-        Featured Jobs
-      </h2>
-      <div
+    <div className="featuredJobs">
+      <h2
+        className="title"
         style={{
-          display: "flex",
-          gap: "20px",
-          alignItems: "center",
-          justifyContent: "center",
+          color: "black",
+          fontWeight: "800",
+          textAlign: "center",
+          marginTop: "50px",
         }}
       >
-        {data.map((data) => (
-          <FeaturedJobsDescription data={data} />
-        ))}
+        Featured Jobs
+      </h2>
+      <div className="jobs">
+        <div>
+          {data.map((data) => (
+            <FeaturedJobsDescription data={data} />
+          ))}
+        </div>
       </div>
     </div>
   );
