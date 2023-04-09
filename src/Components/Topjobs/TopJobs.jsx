@@ -25,7 +25,7 @@ const TopJobs = () => {
       id: 4,
       name: "Node Js Developer",
       img: "../public/assets/node-js.png",
-      jobAvailable: 55000,
+      jobAvailable: 5500,
     },
     {
       id: 5,
