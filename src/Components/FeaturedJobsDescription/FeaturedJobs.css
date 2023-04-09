@@ -1,0 +1,36 @@
+.photo {
+  width: 45px;
+  height: 40px;
+}
+.title,
+.info {
+  color: #2c3a47;
+  font-weight: 800;
+}
+.jobsInfo {
+  background: linear-gradient(
+    90deg,
+    rgba(126, 144, 254, 0.05) 0%,
+    rgba(152, 115, 255, 0.05) 100%
+  );
+  border-radius: 8px;
+  width: 310px;
+  height: 240px;
+}
+.FeatureJobs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-direction: row;
+}
+.jobs {
+  margin: 50px 0;
+  background: linear-gradient(
+    90deg,
+    rgba(126, 144, 254, 0.05) 0%,
+    rgba(152, 115, 255, 0.05) 100%
+  );
+  border-radius: 8px;
+  padding: 20px;
+}
