@@ -12,7 +12,7 @@ class Header extends Component {
         </div>
         <div className="navbar">
           <Link to="/">
-            <Button className="commonBtn" variant="contained" color="primary">
+            <Button className="commonBtn" variant="outline" color="primary">
               Home
             </Button>
           </Link>
@@ -26,18 +26,18 @@ class Header extends Component {
             </Button>
           </Link>
           <Link to="/">
-            <Button className="commonBtn" variant="contained" color="error">
+            <Button className="commonBtn" variant="outline" color="error">
               Applied Jobs
             </Button>
           </Link>
           <Link to="/">
-            <Button className="commonBtn" variant="contained" color="secondary">
+            <Button className="commonBtn" variant="outline" color="secondary">
               Blog
             </Button>
           </Link>
         </div>
         <div className="applyBtn">
-          <Button variant="outlined" color="info">
+          <Button variant="contained" color="info">
             Start Apply
           </Button>
         </div>
