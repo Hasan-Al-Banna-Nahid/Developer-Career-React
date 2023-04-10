@@ -26,7 +26,7 @@
     grid-template-columns: repeat(1, 1fr);
     width: fit-content;
   }
-  /* .viewAllBtn {
+  .viewAllBtn {
     margin: 10px 125px;
-  } */
+  }
 }
