@@ -3,6 +3,7 @@ import "./FeaturedJobsDescription.css";
 import Button from "@mui/material/Button";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLocation, faDollar } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 
 const FeaturedJobsDescription = ({ data, handleSliceData, slicedData }) => {
   const { name, Company, Position, Location, Salary, img, Office, OfficeTime } =
@@ -37,9 +38,11 @@ const FeaturedJobsDescription = ({ data, handleSliceData, slicedData }) => {
         </p>
       </div>
       <div>
-        <Button variant="contained" color="secondary">
-          Details
-        </Button>
+        <Link to="/JobDetails">
+          <Button variant="contained" color="secondary">
+            Details
+          </Button>
+        </Link>
       </div>
     </div>
   );

@@ -1,6 +1,12 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "./Footer.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faLocation,
+  faPhoneAlt,
+  faCircleInfo,
+} from "@fortawesome/free-solid-svg-icons";
 
 class Footer extends Component {
   render() {
@@ -20,34 +26,76 @@ class Footer extends Component {
         <div>
           <h4 className="title">Company</h4>
           <div className="link">
-            <Link>About Us</Link>
-            <Link>Work</Link>
-            <Link>Latest News</Link>
-            <Link>Careers</Link>
+            <Link>
+              <FontAwesomeIcon icon={faCircleInfo} />
+              About Us
+            </Link>
+            <Link>
+              <FontAwesomeIcon icon={faCircleInfo} />
+              Work
+            </Link>
+            <Link>
+              <FontAwesomeIcon icon={faCircleInfo} />
+              Latest News
+            </Link>
+            <Link>
+              <FontAwesomeIcon icon={faCircleInfo} />
+              Careers
+            </Link>
           </div>
         </div>
         <div>
           <h4 className="title">Product</h4>
           <div className="link">
-            <Link>Prototype</Link>
-            <Link>Plans & Pricing</Link>
-            <Link>Customers</Link>
-            <Link>Integrations</Link>
+            <Link>
+              <FontAwesomeIcon icon={faCircleInfo} />
+              Prototype
+            </Link>
+            <Link>
+              <FontAwesomeIcon icon={faCircleInfo} />
+              Plans & Pricing
+            </Link>
+            <Link>
+              <FontAwesomeIcon icon={faCircleInfo} />
+              Customers
+            </Link>
+            <Link>
+              <FontAwesomeIcon icon={faCircleInfo} />
+              Integrations
+            </Link>
           </div>
         </div>
         <div>
           <h4 className="title">Support</h4>
           <div className="link">
-            <Link>Help Desk</Link>
-            <Link>Sales</Link>
-            <Link>Become a Partner</Link>
-            <Link>Developers</Link>
+            <Link>
+              <FontAwesomeIcon icon={faCircleInfo} />
+              Help Desk
+            </Link>
+            <Link>
+              <FontAwesomeIcon icon={faCircleInfo} />
+              Sales
+            </Link>
+            <Link>
+              <FontAwesomeIcon icon={faCircleInfo} />
+              Become a Partner
+            </Link>
+            <Link>
+              <FontAwesomeIcon icon={faCircleInfo} />
+              Developers
+            </Link>
           </div>
         </div>
         <div>
           <h4 className="title">Contact</h4>
-          <p className="contactInfo">Chittagong,Bangladesh</p>
-          <p className="contactInfo">+8801896085259</p>
+          <p className="contactInfo">
+            <FontAwesomeIcon icon={faLocation} />
+            Chittagong,Bangladesh
+          </p>
+          <p className="contactInfo">
+            <FontAwesomeIcon icon={faPhoneAlt} />
+            +8801896085259
+          </p>
         </div>
 
         <hr style={{ color: "black" }} />

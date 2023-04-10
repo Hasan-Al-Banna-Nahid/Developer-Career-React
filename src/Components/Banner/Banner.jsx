@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import "./Banner.css";
 import Button from "@mui/material/Button";
+import TopJobs from "../Topjobs/TopJobs";
+import FeaturedJobs from "../FeaturedJobs/FeaturedJobs";
 class Banner extends Component {
   render() {
     return (
