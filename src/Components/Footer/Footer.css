@@ -1,0 +1,56 @@
+.footer {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  padding: 20px;
+  gap: 10px;
+  background-color: #d2dae2;
+  width: 101.8%;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+.title {
+  color: #3c40c6;
+  font-weight: 800;
+}
+.brand {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.link {
+  display: flex;
+  flex-direction: column;
+  margin-left: 70px;
+}
+.link a,
+.contactInfo {
+  color: #192a56;
+  font-size: 20px;
+}
+.footerTitle {
+  background: linear-gradient(90deg, #7e90fe 0%, #130f40 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  font-weight: 900;
+  font-size: 22px;
+}
+.brandDescription {
+  color: #130f40;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 20px 0;
+}
+@media screen and (max-width: 576px) {
+  .footer {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 20px;
+    gap: 10px;
+    background-color: #d2dae2;
+    width: fit-content;
+    margin: 0 auto;
+    border-radius: 8px;
+  }
+}
