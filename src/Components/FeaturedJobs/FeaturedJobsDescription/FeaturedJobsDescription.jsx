@@ -4,8 +4,9 @@ import Button from "@mui/material/Button";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLocation, faDollar } from "@fortawesome/free-solid-svg-icons";
 
-const FeaturedJobsDescription = ({ data }) => {
-  const { name, Company, Position, Location, Salary, img } = data;
+const FeaturedJobsDescription = ({ data, handleSliceData, slicedData }) => {
+  const { name, Company, Position, Location, Salary, img, Office, OfficeTime } =
+    data;
   return (
     <div className="featuredJobsDescription">
       <img className="image" src={img} alt="" />
@@ -13,10 +14,10 @@ const FeaturedJobsDescription = ({ data }) => {
       <h5 className="companyName">{Company}</h5>
       <div className="buttons">
         <Button variant="outlined" color="info">
-          Remote
+          {Office}
         </Button>
         <Button variant="outlined" color="info">
-          Full-Time
+          {OfficeTime}
         </Button>
       </div>
       <div

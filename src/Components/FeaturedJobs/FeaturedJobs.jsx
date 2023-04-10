@@ -10,6 +10,8 @@ const FeaturedJobs = () => {
       Company: "Google LLC",
       Position: "Senior Data Analyst",
       Location: "London,UK",
+      Office: "Remote",
+      OfficeTime: "Part-Time",
       Salary: "150k - 220k",
       img: "../../../public/assets/All Images/google-1-1 1.png",
     },
@@ -18,14 +20,18 @@ const FeaturedJobs = () => {
       Company: "Netflix",
       Position: "Senior Data Scientist",
       Location: "New York,US",
+      Office: "Onsite",
+      OfficeTime: "Part-Time",
       Salary: "150k - 220k",
-      img: "../../../public/assets/All Images//netflix-4 1.png",
+      img: "../../../public/assets/All Images/netflix-4 1.png",
     },
     {
       name: "React Developer",
       Company: "Tesla",
       Position: "Mid-Level React Js Developer",
       Location: "California,US",
+      Office: "Onsite",
+      OfficeTime: "FullTime",
       Salary: "150k - 170k",
       img: "../../../public/assets/All Images/tesla-9 1.png",
     },
@@ -34,6 +40,8 @@ const FeaturedJobs = () => {
       Company: "Accenture",
       Position: "Mid-Level Full Stack Developer",
       Location: "Texas,Us",
+      Office: "Remote",
+      OfficeTime: "FullTime",
       Salary: "150k - 180k",
       img: "../../../public/assets/All Images/Accenture-logo.png",
     },
@@ -42,6 +50,8 @@ const FeaturedJobs = () => {
       Company: "Google",
       Position: "Senior Deep Learning Engineer",
       Location: "Montreal,France",
+      Office: "Onsite",
+      OfficeTime: "Part-Time",
       Salary: "150k - 220k",
       img: "../../../public/assets/All Images/google-1-1 1.png",
     },
@@ -50,20 +60,23 @@ const FeaturedJobs = () => {
       Company: "Facebook",
       Position: "Senior Machine Learning Engineer(Virtual Reality)",
       Location: "Washington DC,US",
+      Office: "Onsite",
+      OfficeTime: "Full-Time",
       Salary: "150k - 220k",
       img: "../../../public/assets/All Images/logo-facebook-facebook-logo-png-transparent-svg-vector-bie-supply-13.png",
     },
   ];
-  const [datas, setData] = useState(data);
   return (
     <div>
       <h3 className="featuredJobsTitle">Featured Jobs</h3>
-      <div className="featuredJobs">
-        {data.map((data, index) => (
-          <FeaturedJobsDescription data={data} key={index} />
-        ))}
-        <div>
-          <Button className="viewAllBtn" variant="outlined" color="info">
+      <div>
+        <div className="featuredJobs">
+          {data.slice(0, 4).map((item, index) => (
+            <FeaturedJobsDescription data={item} key={index} />
+          ))}
+        </div>
+        <div className="viewAllBtn">
+          <Button className="btn" variant="outlined" color="info">
             View All
           </Button>
         </div>

@@ -4,6 +4,8 @@
     "Company": "Google LLC",
     "Position": "Senior Data Analyst",
     "Location": "London,UK",
+    "Office": "Remote",
+    "OfficeTime": "Part-Time",
     "Salary": "150k - 220k"
   },
   {
@@ -11,6 +13,8 @@
     "Company": "Netflix",
     "Position": "Senior Data Scientist",
     "Location": "New York,US",
+    "Office": "Onsite",
+    "OfficeTime": "Part-Time",
     "Salary": "150k - 220k"
   },
   {
@@ -18,6 +22,8 @@
     "Company": "Tesla",
     "Position": "Mid-Level React Js Developer",
     "Location": "California,US",
+    "Office": "Remote",
+    "OfficeTime": "FullTime",
     "Salary": "150k - 170k"
   },
   {
@@ -25,6 +31,8 @@
     "Company": "Accenture",
     "Position": "Mid-Level Full Stack Developer",
     "Location": "Texas,Us",
+    "Office": "Remote",
+    "OfficeTime": "FullTime",
     "Salary": "150k - 180k"
   },
   {
@@ -32,6 +40,8 @@
     "Company": "Google",
     "Position": "Senior Deep Learning Engineer",
     "Location": "Montreal,France",
+    "Office": "Onsite",
+    "OfficeTime": "Part-Time",
     "Salary": "150k - 220k"
   },
   {
@@ -39,6 +49,8 @@
     "Company": "Facebook",
     "Position": "Senior Machine Learning Engineer(Virtual Reality)",
     "Location": "Washington DC,US",
+    "Office": "Onsite",
+    "OfficeTime": "Full-Time",
     "Salary": "150k - 220k"
   }
 ]
