@@ -14,6 +14,8 @@ import DataAnalyst from "./Components/JobDetails/DataAnalyst/DataAnalyst";
 import DataScientist from "./Components/JobDetails/DataScientist/DataScientist";
 import FrontEnd from "./Components/JobDetails/FrontEndDeveloper/FrontEnd";
 import MachineLearning from "./Components/JobDetails/MachineLearning/MachineLearning";
+import ArtificialIntelligence from "./Components/JobDetails/ArtificialIntelligence/ArtificialIntelligence";
+import AppliedJobs from "./Components/AppliedJobs/AppliedJobs";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -55,6 +57,14 @@ const router = createBrowserRouter([
       {
         path: "/MachineLearning",
         element: <MachineLearning />,
+      },
+      {
+        path: "/ArtificialIntelligence",
+        element: <ArtificialIntelligence />,
+      },
+      {
+        path: "/appliedJobs",
+        element: <AppliedJobs />,
       },
       {
         path: "/footer",

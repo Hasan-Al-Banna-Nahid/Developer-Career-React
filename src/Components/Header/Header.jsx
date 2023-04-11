@@ -25,7 +25,7 @@ class Header extends Component {
               Statistics
             </Button>
           </Link>
-          <Link to="/">
+          <Link to="/appliedJobs">
             <Button className="commonBtn" variant="outline" color="error">
               Applied Jobs
             </Button>

@@ -48,7 +48,7 @@ const FeaturedJobs = () => {
     {
       name: "Machine Learning",
       Company: "Google",
-      Position: "Senior Deep Learning Engineer",
+      Position: "Senior Machine Learning Engineer",
       Location: "Montreal,France",
       Office: "Onsite",
       OfficeTime: "Part-Time",

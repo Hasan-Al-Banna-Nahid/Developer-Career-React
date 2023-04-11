@@ -40,7 +40,7 @@ const TopJobs = () => {
       <h3 className="title">Top Jobs</h3>
       <div className="jobsInfo">
         {data.map((data) => (
-          <TopJobsDescription data={data} />
+          <TopJobsDescription key={data.id} data={data} />
         ))}
       </div>
     </div>

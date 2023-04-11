@@ -1,6 +1,6 @@
-import React from "react";
+import React, { createContext } from "react";
 import Button from "@mui/material/Button";
-import { Link, useNavigate } from "react-router-dom";
+import { json, Link, useNavigate } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faBook,
@@ -15,6 +15,19 @@ const MachineLearning = () => {
   const navigate = useNavigate();
   const handleGoBackButton = () => {
     navigate(-1);
+  };
+  const localStorageData = {
+    name: "Machine Learning",
+    Company: "Google",
+    Position: "Senior Machine Learning Engineer",
+    Location: "Montreal,France",
+    Office: "Onsite",
+    OfficeTime: "Part-Time",
+    Salary: "150k - 220k",
+    img: "../../../public/assets/All Images/google-1-1 1.png",
+  };
+  const handleLocalStorage = () => {
+    localStorage.setItem("ml", JSON.stringify(localStorageData));
   };
   return (
     <div>
@@ -117,7 +130,12 @@ const MachineLearning = () => {
               Address : Feni,Chittagong,Bangladesh
             </h4>
           </div>
-          <Button className="applyButton" variant="outline" color="Info">
+          <Button
+            onClick={handleLocalStorage}
+            className="applyButton"
+            variant="outline"
+            color="Info"
+          >
             Apply
           </Button>
         </div>

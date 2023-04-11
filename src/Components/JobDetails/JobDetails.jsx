@@ -52,7 +52,7 @@ const JobDetails = ({}) => {
           <h3 className="designation">
             Artificial Intelligence Engineer(Facebook)
           </h3>
-          <Link to="">
+          <Link to="/ArtificialIntelligence">
             <Button variant="outlined" color="primary">
               Details
             </Button>
