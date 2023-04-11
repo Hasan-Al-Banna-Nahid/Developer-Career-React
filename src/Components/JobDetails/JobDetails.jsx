@@ -34,6 +34,24 @@ const JobDetails = ({}) => {
         </div>
         <div>
           <h3 className="designation">Front End Developer(Tesla)</h3>
+          <Link to="/frontEnd">
+            <Button variant="outlined" color="primary">
+              Details
+            </Button>
+          </Link>
+        </div>
+        <div>
+          <h3 className="designation">Machine Learning Engineer(Google)</h3>
+          <Link to="/MachineLearning">
+            <Button variant="outlined" color="primary">
+              Details
+            </Button>
+          </Link>
+        </div>
+        <div>
+          <h3 className="designation">
+            Artificial Intelligence Engineer(Facebook)
+          </h3>
           <Link to="">
             <Button variant="outlined" color="primary">
               Details

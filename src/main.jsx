@@ -12,6 +12,8 @@ import Layout from "./Components/CustomeLayout/Layout";
 import FullStack from "./Components/JobDetails/FullStackDeveloper/FullStack";
 import DataAnalyst from "./Components/JobDetails/DataAnalyst/DataAnalyst";
 import DataScientist from "./Components/JobDetails/DataScientist/DataScientist";
+import FrontEnd from "./Components/JobDetails/FrontEndDeveloper/FrontEnd";
+import MachineLearning from "./Components/JobDetails/MachineLearning/MachineLearning";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -45,6 +47,14 @@ const router = createBrowserRouter([
       {
         path: "/dataScientist",
         element: <DataScientist />,
+      },
+      {
+        path: "/frontEnd",
+        element: <FrontEnd />,
+      },
+      {
+        path: "/MachineLearning",
+        element: <MachineLearning />,
       },
       {
         path: "/footer",
