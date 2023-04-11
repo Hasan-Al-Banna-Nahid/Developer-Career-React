@@ -18,7 +18,7 @@ const JobDetails = ({}) => {
         </div>
         <div>
           <h3 className="designation">Data Analyst(Google)</h3>
-          <Link to="">
+          <Link to="/dataAnalyst">
             <Button variant="outlined" color="primary">
               Details
             </Button>
@@ -26,7 +26,7 @@ const JobDetails = ({}) => {
         </div>
         <div>
           <h3 className="designation">Data Scientist(Netflix)</h3>
-          <Link to="">
+          <Link to="/dataScientist">
             <Button variant="outlined" color="primary">
               Details
             </Button>

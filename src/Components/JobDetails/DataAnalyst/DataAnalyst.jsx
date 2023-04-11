@@ -1,7 +1,6 @@
 import React from "react";
 import Button from "@mui/material/Button";
 import { Link, useNavigate } from "react-router-dom";
-import "./Accenture.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faBook,
@@ -12,8 +11,7 @@ import {
   faLocation,
   faMailBulk,
 } from "@fortawesome/free-solid-svg-icons";
-
-const Accenture = () => {
+const DataAnalyst = () => {
   const navigate = useNavigate();
   const handleGoBackButton = () => {
     navigate(-1);
@@ -25,47 +23,61 @@ const Accenture = () => {
         <div className="summary">
           <p className="jobSummary">
             <FontAwesomeIcon icon={faBook} style={{ padding: "0 5px" }} />
-            Our company is looking to hire a full stack software developer to
-            join our software development team. In this position, you will be
-            responsible for coding both sides of the program, so our ideal
-            candidate has experience with both front-end languages (HTML,
-            JavaScript) and back-end <br /> languages (SQL). A certificate in
-            one or more programming languages is a plus. We prefer applicants to
-            have at least a bachelor's degree in <br /> computer science, but we
-            are willing to work with you if you have a strong portfolio of past
-            projects. We also need candidates that have experience <br /> with
-            front end frameworks and tools, such as AngularJS, JQuery, and
-            Microsoft SQL Serve
+            We are looking for a detail-oriented and collaborative Data Analyst
+            to join our business analytics team. You must have experience
+            working with large data sets and understand how to manipulate and
+            analyze them using various statistical and mathematical methods. Our
+            marketing and products department will collaborate with you to
+            determine what data should be collected and interpreted. Your goal
+            will be to provide our business analysts with valuable information
+            to forecast trends and improve sales. Candidates must have at least
+            one year of relevant data experience.
           </p>
           <h3 className="responsibilitiesTitle">
             <FontAwesomeIcon
               icon={faArrowAltCircleRight}
               style={{ padding: "0 5px" }}
             />
-            Full Stack Software Developer Duties and Responsibilities
+            Data Analyst Duties and Responsibilities
           </h3>
           <ul className="responsibilities">
-            <li>Develop both front-end and back-end architecture</li>
-            <li>Create databases and libraries using SQL</li>
-            <li>Ensure software is compatible on multiple platforms</li>
-            <li>Coordinate with other developers</li>
-            <li>Create progress reports for your supervisors</li>
-            <li>Basic Knowledge of Creating Secure API</li>
+            <li>Analyze data using statistical methods</li>
+            <li>
+              Create reports to share findings and recommendations with the
+              internal team and other stakeholders
+            </li>
+            <li>
+              Collaborate with leaders and managers to determine and address
+              data and reporting needs for various company projects
+            </li>
+            <li>Create statistical models that depict company-wide trends</li>
+            <li>Perform testing and validation of data sets</li>
+            <li>Document structures and types of business data</li>
           </ul>
           <h3 className="qualificationTitle">
             <FontAwesomeIcon
               icon={faArrowAltCircleRight}
               style={{ padding: "0 5px" }}
             />
-            Full Stack Software Developer Requirements and Qualifications
+            Data Analyst Requirements and Qualifications
           </h3>
           <ul className="qualification">
-            <li>Bachelor's degree in computer science (preferred)</li>
-            <li>Portfolio of past work</li>
-            <li>Certificate in HTML, JavaScript, and/or SQL (preferred)</li>
-            <li>Experience with Model View Controller development strategy</li>
-            <li>Communication skills</li>
-            <li>Organization and time management skills</li>
+            <li>
+              Bachelor's degree in mathematics, statistics, computer science,
+              information technology, or related field preferred
+            </li>
+            <li>1+ years of experience in a data analyst or relevant role</li>
+            <li>Strong analytical capabilities</li>
+            <li>
+              Expert with Microsoft Excel and various business intelligence and
+              analytical tools
+            </li>
+            <li>
+              Understanding of data gathering, inspecting, cleansing,
+              transforming, and modeling/diagramming techniques
+            </li>
+            <li>Organization and Keen attention to detail</li>
+            <li>Excellent communication skills</li>
           </ul>
         </div>
         <div>
@@ -73,14 +85,14 @@ const Accenture = () => {
             <h3 className="titleOfDetail">Job Details</h3>
             <h4 className="salary">
               <FontAwesomeIcon icon={faDollar} style={{ padding: "0 5px" }} />{" "}
-              Salary : 150k-170k(per Annum)
+              Salary : 160k-180k(per Annum)
             </h4>
             <h4 className="jobTitle">
               <FontAwesomeIcon
                 icon={faCircleCheck}
                 style={{ padding: "0 5px" }}
               />{" "}
-              Job Title : Senior Full Stack Developer
+              Job Title : Senior Data Analyst
             </h4>
             <h3 className="contactInfo">Contact Information</h3>
             <hr />
@@ -115,4 +127,4 @@ const Accenture = () => {
   );
 };
 
-export default Accenture;
+export default DataAnalyst;

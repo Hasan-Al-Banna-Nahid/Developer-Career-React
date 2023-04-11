@@ -9,7 +9,9 @@ import Banner from "./Components/Banner/Banner";
 import Footer from "./Components/Footer/Footer";
 import JobDetails from "./Components/JobDetails/JobDetails";
 import Layout from "./Components/CustomeLayout/Layout";
-import Accenture from "./Components/JobDetails/Accenture/Accenture";
+import FullStack from "./Components/JobDetails/FullStackDeveloper/FullStack";
+import DataAnalyst from "./Components/JobDetails/DataAnalyst/DataAnalyst";
+import DataScientist from "./Components/JobDetails/DataScientist/DataScientist";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -34,7 +36,15 @@ const router = createBrowserRouter([
       },
       {
         path: "/accenture",
-        element: <Accenture />,
+        element: <FullStack />,
+      },
+      {
+        path: "/dataAnalyst",
+        element: <DataAnalyst />,
+      },
+      {
+        path: "/dataScientist",
+        element: <DataScientist />,
       },
       {
         path: "/footer",
