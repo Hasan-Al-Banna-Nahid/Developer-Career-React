@@ -9,6 +9,7 @@ import Banner from "./Components/Banner/Banner";
 import Footer from "./Components/Footer/Footer";
 import JobDetails from "./Components/JobDetails/JobDetails";
 import Layout from "./Components/CustomeLayout/Layout";
+import Accenture from "./Components/JobDetails/Accenture/Accenture";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -25,10 +26,15 @@ const router = createBrowserRouter([
       {
         path: "/featuredJobs",
         element: <FeaturedJobs />,
+        loader: () => fetch("jobdesc.json"),
       },
       {
         path: "/jobDetails",
         element: <JobDetails />,
+      },
+      {
+        path: "/accenture",
+        element: <Accenture />,
       },
       {
         path: "/footer",

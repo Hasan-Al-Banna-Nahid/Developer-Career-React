@@ -1,0 +1,64 @@
+.Accenture {
+  display: grid;
+  grid-template-columns: 8fr 4fr;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 20px;
+}
+.goBackBtn {
+  margin: 20px;
+  text-align: center;
+}
+.summary {
+  border-right: 3px solid #130f40;
+}
+.jobSummary {
+  color: #130f40;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 10px;
+}
+.responsibilitiesTitle,
+.qualificationTitle {
+  color: #130f40;
+  font-weight: 800;
+}
+.responsibilities,
+.qualification {
+  color: #4834d4;
+  font-size: 18px;
+  font-weight: 700;
+}
+.card {
+  background: linear-gradient(
+    90deg,
+    rgba(126, 144, 254, 0.1) 0%,
+    rgba(152, 115, 255, 0.1) 100%
+  );
+  border-radius: 8px;
+  padding: 10px;
+}
+.salary,
+.jobTitle,
+.contactInfo,
+.phone,
+.email,
+.address {
+  color: #4834d4;
+  text-align: center;
+}
+.applyButton {
+  background: linear-gradient(90deg, #7e90fe 0%, #9873ff 100%);
+  border-radius: 8px;
+  color: #130f40;
+  width: 100%;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.titleOfDetail {
+  color: #eb4d4b;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 800;
+}
