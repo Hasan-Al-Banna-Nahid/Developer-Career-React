@@ -39,27 +39,53 @@ const MachineLearning = () => {
             Machine Learning Engineer Duties and Responsibilities
           </h3>
           <ul className="responsibilities">
-            <li>Develop both front-end and back-end architecture</li>
-            <li>Create databases and libraries using SQL</li>
-            <li>Ensure software is compatible on multiple platforms</li>
-            <li>Coordinate with other developers</li>
-            <li>Create progress reports for your supervisors</li>
-            <li>Basic Knowledge of Creating Secure API</li>
+            <li>
+              Develop and implement advanced machine learning algorithms and
+              systems
+            </li>
+            <li>Design and execute deep learning models</li>
+            <li>
+              Research and develop data-driven solutions to complex business
+              problems
+            </li>
+            <li>Analyze and interpret large datasets</li>
+            <li>
+              Collaborate with other engineers and product teams to deliver
+              innovative solutions
+            </li>
+            <li>Develop and maintain machine learning pipelines</li>
+            <li>Evaluate and optimize machine learning solutions</li>
+            <li>
+              Monitor, analyze, and report on system performance and accuracy
+            </li>
           </ul>
           <h3 className="qualificationTitle">
             <FontAwesomeIcon
               icon={faArrowAltCircleRight}
               style={{ padding: "0 5px" }}
             />
-            Full Stack Software Developer Requirements and Qualifications
+            Machine Learning Engineer Requirements and Qualifications
           </h3>
           <ul className="qualification">
-            <li>Bachelor's degree in computer science (preferred)</li>
-            <li>Portfolio of past work</li>
-            <li>Certificate in HTML, JavaScript, and/or SQL (preferred)</li>
-            <li>Experience with Model View Controller development strategy</li>
-            <li>Communication skills</li>
-            <li>Organization and time management skills</li>
+            <li>
+              Bachelor's degree in Computer Science, Mathematics, Engineering,
+              or related technical field
+            </li>
+            <li>
+              3+ years of experience in software development and/or machine
+              learning preferred
+            </li>
+            <li>
+              Knowledge and experience with TensorFlow, Scikit-Learn, and Keras
+            </li>
+            <li>Fluent in Python preferred</li>
+            <li>
+              Experience with databases, data processing, and data wrangling
+            </li>
+            <li>Experience with natural language processing (NLP)</li>
+            <li>
+              Excellent problem-solving, communication, and collaboration skills
+            </li>
           </ul>
         </div>
         <div>
@@ -67,14 +93,14 @@ const MachineLearning = () => {
             <h3 className="titleOfDetail">Job Details</h3>
             <h4 className="salary">
               <FontAwesomeIcon icon={faDollar} style={{ padding: "0 5px" }} />{" "}
-              Salary : 150k-170k(per Annum)
+              Salary : 170k-220k(per Annum)
             </h4>
             <h4 className="jobTitle">
               <FontAwesomeIcon
                 icon={faCircleCheck}
                 style={{ padding: "0 5px" }}
               />{" "}
-              Job Title : Senior Full Stack Developer
+              Job Title : Senior Machine Learning Engineer
             </h4>
             <h3 className="contactInfo">Contact Information</h3>
             <hr />
