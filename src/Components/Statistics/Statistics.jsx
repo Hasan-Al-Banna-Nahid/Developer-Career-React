@@ -79,8 +79,8 @@ const Statistics = () => {
           dataKey="result"
           label={{ angle: -90, position: "insideLeft" }}
         />
-        <Scatter name="name" dataKey="name" fill="red" />
-        <Scatter name="result" dataKey="result" fill="blue" />
+        <Scatter name="result" dataKey="" fill="red" />
+        <Scatter name="name" dataKey="" fill="blue" />
         <Line
           dataKey="name"
           stroke="blue"
