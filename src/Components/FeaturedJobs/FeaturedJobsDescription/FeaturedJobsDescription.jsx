@@ -6,8 +6,6 @@ import { faLocation, faDollar } from "@fortawesome/free-solid-svg-icons";
 import { Link, useLoaderData } from "react-router-dom";
 
 const FeaturedJobsDescription = ({ data }) => {
-  const datas = useLoaderData();
-  console.log(datas);
   const { name, Company, Position, Location, Salary, img, Office, OfficeTime } =
     data;
   return (

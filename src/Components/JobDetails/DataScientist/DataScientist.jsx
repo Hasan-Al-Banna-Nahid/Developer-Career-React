@@ -17,6 +17,22 @@ const DataScientist = () => {
   const handleGoBackButton = () => {
     navigate(-1);
   };
+  const localStorageDataDataScientist = {
+    name3: "Data Scientist",
+    Company3: "Netflix",
+    Position3: "Senior Data Scientist",
+    Location3: "New York,US",
+    Office3: "Onsite",
+    OfficeTime3: "Part-Time",
+    Salary3: "150k - 220k",
+    img3: "../../../public/assets/All Images/netflix-4 1.png",
+  };
+  const handleLocalStorage = () => {
+    localStorage.setItem(
+      "DataScientist",
+      JSON.stringify(localStorageDataDataScientist)
+    );
+  };
   return (
     <div>
       <h3 className="titleOfDetail">Job Details</h3>
@@ -141,7 +157,12 @@ const DataScientist = () => {
               Address : Feni,Chittagong,Bangladesh
             </h4>
           </div>
-          <Button className="applyButton" variant="outline" color="Info">
+          <Button
+            onClick={handleLocalStorage}
+            className="applyButton"
+            variant="outline"
+            color="Info"
+          >
             Apply
           </Button>
         </div>

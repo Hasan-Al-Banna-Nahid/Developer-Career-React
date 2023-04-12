@@ -16,6 +16,19 @@ const ArtificialIntelligence = () => {
   const handleGoBackButton = () => {
     navigate(-1);
   };
+  const localStorageDataAI = {
+    name1: "Artificial Intelligence",
+    Company1: "Facebook",
+    Position1: "Senior Artificial Intelligence Engineer(Virtual Reality)",
+    Location1: "Washington DC,US",
+    Office1: "Onsite",
+    OfficeTime1: "Full-Time",
+    Salary1: "150k - 220k",
+    img1: "../../../public/assets/All Images/logo-facebook-facebook-logo-png-transparent-svg-vector-bie-supply-13.png",
+  };
+  const handleLocalStorage = () => {
+    localStorage.setItem("ai", JSON.stringify(localStorageDataAI));
+  };
   return (
     <div>
       <h3 className="titleOfDetail">Job Details</h3>
@@ -193,7 +206,12 @@ const ArtificialIntelligence = () => {
               Address : Feni,Chittagong,Bangladesh
             </h4>
           </div>
-          <Button className="applyButton" variant="outline" color="Info">
+          <Button
+            onClick={handleLocalStorage}
+            className="applyButton"
+            variant="outline"
+            color="Info"
+          >
             Apply
           </Button>
         </div>

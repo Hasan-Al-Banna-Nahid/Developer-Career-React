@@ -16,7 +16,7 @@ const MachineLearning = () => {
   const handleGoBackButton = () => {
     navigate(-1);
   };
-  const localStorageData = {
+  const localStorageDataML = {
     name: "Machine Learning",
     Company: "Google",
     Position: "Senior Machine Learning Engineer",
@@ -27,7 +27,7 @@ const MachineLearning = () => {
     img: "../../../public/assets/All Images/google-1-1 1.png",
   };
   const handleLocalStorage = () => {
-    localStorage.setItem("ml", JSON.stringify(localStorageData));
+    localStorage.setItem("ml", JSON.stringify(localStorageDataML));
   };
   return (
     <div>

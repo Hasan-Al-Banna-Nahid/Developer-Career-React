@@ -16,6 +16,19 @@ const FrontEnd = () => {
   const handleGoBackButton = () => {
     navigate(-1);
   };
+  const localStorageDataFrontEnd = {
+    name4: "Front End Developer",
+    Company4: "Tesla",
+    Position4: "Mid-Level React Js Developer",
+    Location4: "California,US",
+    Office4: "Onsite",
+    OfficeTime4: "FullTime",
+    Salary4: "150k - 170k",
+    img4: "../../../public/assets/All Images/tesla-9 1.png",
+  };
+  const handleLocalStorage = () => {
+    localStorage.setItem("FrontEnd", JSON.stringify(localStorageDataFrontEnd));
+  };
   return (
     <div>
       <h3 className="titleOfDetail">Job Details</h3>
@@ -131,7 +144,12 @@ const FrontEnd = () => {
               Address : Feni,Chittagong,Bangladesh
             </h4>
           </div>
-          <Button className="applyButton" variant="outline" color="Info">
+          <Button
+            onClick={handleLocalStorage}
+            className="applyButton"
+            variant="outline"
+            color="Info"
+          >
             Apply
           </Button>
         </div>

@@ -16,6 +16,22 @@ const DataAnalyst = () => {
   const handleGoBackButton = () => {
     navigate(-1);
   };
+  const localStorageDataDataAnalyst = {
+    name2: "Data Analyst",
+    Company2: "Google LLC",
+    Position2: "Senior Data Analyst",
+    Location2: "London,UK",
+    Office2: "Remote",
+    OfficeTime2: "Part-Time",
+    Salary2: "150k - 220k",
+    img2: "../../../public/assets/All Images/google-1-1 1.png",
+  };
+  const handleLocalStorage = () => {
+    localStorage.setItem(
+      "DataAnalyst",
+      JSON.stringify(localStorageDataDataAnalyst)
+    );
+  };
   return (
     <div>
       <h3 className="titleOfDetail">Job Details</h3>
@@ -109,7 +125,12 @@ const DataAnalyst = () => {
               Address : Feni,Chittagong,Bangladesh
             </h4>
           </div>
-          <Button className="applyButton" variant="outline" color="Info">
+          <Button
+            onClick={handleLocalStorage}
+            className="applyButton"
+            variant="outline"
+            color="Info"
+          >
             Apply
           </Button>
         </div>

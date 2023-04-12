@@ -18,6 +18,22 @@ const FullStack = () => {
   const handleGoBackButton = () => {
     navigate(-1);
   };
+  const localStorageDataFullStack = {
+    name5: "Full Stack Developer",
+    Company5: "Accenture",
+    Position5: "Senior Full Stack Developer",
+    Location5: "Texas,Us",
+    Office5: "Remote",
+    OfficeTime5: "FullTime",
+    Salary5: "150k - 180k",
+    img5: "../../../public/assets/All Images/Accenture-logo.png",
+  };
+  const handleLocalStorage = () => {
+    localStorage.setItem(
+      "FullStack",
+      JSON.stringify(localStorageDataFullStack)
+    );
+  };
   return (
     <div>
       <h3 className="titleOfDetail">Job Details</h3>
@@ -97,7 +113,12 @@ const FullStack = () => {
               Address : Feni,Chittagong,Bangladesh
             </h4>
           </div>
-          <Button className="applyButton" variant="outline" color="Info">
+          <Button
+            onClick={handleLocalStorage}
+            className="applyButton"
+            variant="outline"
+            color="Info"
+          >
             Apply
           </Button>
         </div>
