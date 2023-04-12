@@ -30,7 +30,7 @@ class Header extends Component {
               Applied Jobs
             </Button>
           </Link>
-          <Link to="/">
+          <Link to="/blog">
             <Button className="commonBtn" variant="outline" color="secondary">
               Blog
             </Button>

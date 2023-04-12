@@ -17,6 +17,7 @@ import MachineLearning from "./Components/JobDetails/MachineLearning/MachineLear
 import ArtificialIntelligence from "./Components/JobDetails/ArtificialIntelligence/ArtificialIntelligence";
 import AppliedJobs from "./Components/AppliedJobs/AppliedJobs";
 import Statistics from "./Components/Statistics/Statistics";
+import Blog from "./Components/Blog/Blog";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -74,6 +75,10 @@ const router = createBrowserRouter([
       {
         path: "*",
         element: <Error />,
+      },
+      {
+        path: "/blog",
+        element: <Blog />,
       },
       {
         path: "/footer",
