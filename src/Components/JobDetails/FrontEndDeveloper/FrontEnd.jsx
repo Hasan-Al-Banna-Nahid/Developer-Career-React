@@ -19,7 +19,7 @@ const FrontEnd = () => {
   const localStorageDataFrontEnd = {
     name4: "Front End Developer",
     Company4: "Tesla",
-    Position4: "Mid-Level React Js Developer",
+    Position4: "Senior Front End Developer",
     Location4: "California,US",
     Office4: "Onsite",
     OfficeTime4: "FullTime",

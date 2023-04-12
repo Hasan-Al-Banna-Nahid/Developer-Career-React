@@ -93,22 +93,25 @@ const AppliedJobs = () => {
             </Button>
           </div>
           <div>
-            <h4 className="CompanyInfo">
-              <FontAwesomeIcon icon={faLocation} style={{ padding: "0 5px" }} />
-              {Location}
-            </h4>
-            <h4 className="CompanyInfo">
-              <FontAwesomeIcon icon={faDollar} style={{ padding: "0 5px" }} />
-              {Salary}
-            </h4>
+            <div className="common">
+              <h4 className="CompanyInfo">
+                <FontAwesomeIcon
+                  icon={faLocation}
+                  style={{ padding: "0 5px" }}
+                />
+                {Location}
+              </h4>
+              <h4 className="CompanyInfo">
+                <FontAwesomeIcon icon={faDollar} style={{ padding: "0 5px" }} />
+                {Salary}
+              </h4>
+            </div>
           </div>
-          <Button
-            variant="contained"
-            color="primary"
-            style={{ margin: "10px 0" }}
-          >
-            View Details
-          </Button>
+          <div className="commonButton">
+            <Button variant="contained" color="primary">
+              View Details
+            </Button>
+          </div>
         </div>
       </div>
       {/* ML */}
@@ -129,22 +132,25 @@ const AppliedJobs = () => {
             </Button>
           </div>
           <div>
-            <h4 className="CompanyInfo">
-              <FontAwesomeIcon icon={faLocation} style={{ padding: "0 5px" }} />
-              {Location1}
-            </h4>
-            <h4 className="CompanyInfo">
-              <FontAwesomeIcon icon={faDollar} style={{ padding: "0 5px" }} />
-              {Salary1}
-            </h4>
+            <div className="common">
+              <h4 className="CompanyInfo">
+                <FontAwesomeIcon
+                  icon={faLocation}
+                  style={{ padding: "0 5px" }}
+                />
+                {Location1}
+              </h4>
+              <h4 className="CompanyInfo">
+                <FontAwesomeIcon icon={faDollar} style={{ padding: "0 5px" }} />
+                {Salary1}
+              </h4>
+            </div>
           </div>
-          <Button
-            variant="contained"
-            color="primary"
-            style={{ margin: "10px 0" }}
-          >
-            View Details
-          </Button>
+          <div className="commonButton">
+            <Button variant="contained" color="primary">
+              View Details
+            </Button>
+          </div>
         </div>
       </div>
       {/* AI */}
@@ -165,22 +171,25 @@ const AppliedJobs = () => {
             </Button>
           </div>
           <div>
-            <h4 className="CompanyInfo">
-              <FontAwesomeIcon icon={faLocation} style={{ padding: "0 5px" }} />
-              {Location2}
-            </h4>
-            <h4 className="CompanyInfo">
-              <FontAwesomeIcon icon={faDollar} style={{ padding: "0 5px" }} />
-              {Salary2}
-            </h4>
+            <div className="common">
+              <h4 className="CompanyInfo">
+                <FontAwesomeIcon
+                  icon={faLocation}
+                  style={{ padding: "0 5px" }}
+                />
+                {Location2}
+              </h4>
+              <h4 className="CompanyInfo">
+                <FontAwesomeIcon icon={faDollar} style={{ padding: "0 5px" }} />
+                {Salary2}
+              </h4>
+            </div>
           </div>
-          <Button
-            variant="contained"
-            color="primary"
-            style={{ margin: "10px 0" }}
-          >
-            View Details
-          </Button>
+          <div className="commonButton">
+            <Button variant="contained" color="primary">
+              View Details
+            </Button>
+          </div>
         </div>
       </div>
       {/* Data Analyst */}
@@ -201,22 +210,25 @@ const AppliedJobs = () => {
             </Button>
           </div>
           <div>
-            <h4 className="CompanyInfo">
-              <FontAwesomeIcon icon={faLocation} style={{ padding: "0 5px" }} />
-              {Location3}
-            </h4>
-            <h4 className="CompanyInfo">
-              <FontAwesomeIcon icon={faDollar} style={{ padding: "0 5px" }} />
-              {Salary3}
-            </h4>
+            <div className="common">
+              <h4 className="CompanyInfo">
+                <FontAwesomeIcon
+                  icon={faLocation}
+                  style={{ padding: "0 5px" }}
+                />
+                {Location3}
+              </h4>
+              <h4 className="CompanyInfo">
+                <FontAwesomeIcon icon={faDollar} style={{ padding: "0 5px" }} />
+                {Salary3}
+              </h4>
+            </div>
           </div>
-          <Button
-            variant="contained"
-            color="primary"
-            style={{ margin: "10px 0" }}
-          >
-            View Details
-          </Button>
+          <div className="commonButton">
+            <Button variant="contained" color="primary">
+              View Details
+            </Button>
+          </div>
         </div>
       </div>
       {/* Data Scientist */}
@@ -237,22 +249,25 @@ const AppliedJobs = () => {
             </Button>
           </div>
           <div>
-            <h4 className="CompanyInfo">
-              <FontAwesomeIcon icon={faLocation} style={{ padding: "0 5px" }} />
-              {Location4}
-            </h4>
-            <h4 className="CompanyInfo">
-              <FontAwesomeIcon icon={faDollar} style={{ padding: "0 5px" }} />
-              {Salary4}
-            </h4>
+            <div className="common">
+              <h4 className="CompanyInfo">
+                <FontAwesomeIcon
+                  icon={faLocation}
+                  style={{ padding: "0 5px" }}
+                />
+                {Location4}
+              </h4>
+              <h4 className="CompanyInfo">
+                <FontAwesomeIcon icon={faDollar} style={{ padding: "0 5px" }} />
+                {Salary4}
+              </h4>
+            </div>
           </div>
-          <Button
-            variant="contained"
-            color="primary"
-            style={{ margin: "10px 0" }}
-          >
-            View Details
-          </Button>
+          <div className="commonButton">
+            <Button variant="contained" color="primary">
+              View Details
+            </Button>
+          </div>
         </div>
       </div>
       {/* FrontEnd */}
@@ -273,22 +288,26 @@ const AppliedJobs = () => {
             </Button>
           </div>
           <div>
-            <h4 className="CompanyInfo">
-              <FontAwesomeIcon icon={faLocation} style={{ padding: "0 5px" }} />
-              {Location5}
-            </h4>
-            <h4 className="CompanyInfo">
-              <FontAwesomeIcon icon={faDollar} style={{ padding: "0 5px" }} />
-              {Salary5}
-            </h4>
+            <div className="common">
+              <h4 className="CompanyInfo">
+                <FontAwesomeIcon
+                  icon={faLocation}
+                  style={{ padding: "0 5px" }}
+                />
+                {Location5}
+              </h4>
+              <h4 className="CompanyInfo">
+                <FontAwesomeIcon icon={faDollar} style={{ padding: "0 5px" }} />
+                {Salary5}
+              </h4>
+            </div>
           </div>
-          <Button
-            variant="contained"
-            color="primary"
-            style={{ margin: "10px 0" }}
-          >
-            View Details
-          </Button>
+
+          <div className="commonButton">
+            <Button variant="contained" color="primary">
+              View Details
+            </Button>
+          </div>
         </div>
       </div>
       {/* FullStack */}

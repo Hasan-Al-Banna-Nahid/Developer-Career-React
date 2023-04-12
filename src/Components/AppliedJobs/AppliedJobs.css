@@ -17,12 +17,23 @@
   padding: 20px;
   border: 2px solid #130f40;
   border-radius: 8px;
-  margin: 0 250px;
-  height: 300px;
+  margin: 10px 250px;
+  height: 200px;
 }
 .img {
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 0 20px;
+}
+.common {
+  display: flex;
+}
+.commonButton {
+  margin: 10px 530px;
+  position: relative;
+  bottom: 150px;
+  width: 250px;
+  right: 50px;
+  border-radius: 4px;
 }
