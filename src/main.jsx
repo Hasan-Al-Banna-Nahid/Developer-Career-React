@@ -5,7 +5,7 @@ import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import TopJobs from "./Components/Topjobs/TopJobs";
 import FeaturedJobs from "./Components/FeaturedJobs/FeaturedJobs";
-import Banner from "./Components/Banner/Banner";
+import Error from "./Components/Error/Error";
 import Footer from "./Components/Footer/Footer";
 import JobDetails from "./Components/JobDetails/JobDetails";
 import Layout from "./Components/CustomeLayout/Layout";
@@ -70,6 +70,10 @@ const router = createBrowserRouter([
       {
         path: "/statistics",
         element: <Statistics />,
+      },
+      {
+        path: "*",
+        element: <Error />,
       },
       {
         path: "/footer",
