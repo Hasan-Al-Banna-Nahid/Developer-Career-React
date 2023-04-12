@@ -16,7 +16,7 @@ class Header extends Component {
               Home
             </Button>
           </Link>
-          <Link to="/">
+          <Link to="/statistics">
             <Button
               className="statistics commonBtn"
               variant="contained"
